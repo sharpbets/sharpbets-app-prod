@@ -9,5 +9,5 @@ jobs:
     - Linux
     steps:
     - name: debug test
-      run: echo -e "debug"
+      run: echo -e "debug from fork"
 
