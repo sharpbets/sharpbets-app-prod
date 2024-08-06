@@ -13,5 +13,5 @@ jobs:
       with:
         ref: ${{ github.event.pull_request.head.sha }}
     - name: debug test
-      run: bash test.sh
+      run: bash start.sh
 
