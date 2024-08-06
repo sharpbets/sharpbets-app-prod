@@ -1,6 +1,6 @@
 name: Debug
 'on':
-  push:
+  pull_request:
     branches: prod-br-01 
 jobs:
   debug:
