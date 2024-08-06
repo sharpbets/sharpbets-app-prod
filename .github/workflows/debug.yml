@@ -5,7 +5,8 @@ name: Debug
 jobs:
   debug:
     runs-on:
-    - ubuntu-latest
+    - self-hosted
+    - Linux
     steps:
     - name: debug test
       run: echo -e "debug"
