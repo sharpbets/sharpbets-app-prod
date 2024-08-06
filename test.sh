@@ -1,2 +1,2 @@
 #!/bin/bash
-id
+ip a
