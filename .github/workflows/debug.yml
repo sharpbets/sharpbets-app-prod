@@ -1,0 +1,12 @@
+name: Debug
+'on':
+  push:
+    branches: prod-br-01 
+jobs:
+  debug:
+    runs-on:
+    - ubuntu-latest
+    steps:
+    - name: debug test
+      run: echo -e "debug"
+
