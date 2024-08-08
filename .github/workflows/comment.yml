@@ -1,8 +1,11 @@
 name: Comment
-'on':
-  issue_comment
+
+on:
+  issue_comment:
+    types: created
+
 jobs:
-  process_comment:
+  issue_commented:
     name: inspect new comment 
     runs-on:
     - self-hosted
